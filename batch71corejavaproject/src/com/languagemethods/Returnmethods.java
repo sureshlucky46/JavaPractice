@@ -12,12 +12,17 @@ public class Returnmethods {
 	static double method3() {
 		return 25.234567;
 	}
+	
+	static float method4() {
+		return (float) 34.56;
+	}
 
 	static void show() {
-		int a = method1();
-		System.out.println("int value: " + a);
+
+		System.out.println("int value: " + method1());
 		System.out.println("string value: " + method2());
 		System.out.println("double value: " + method3());
+		System.out.println("double value: " + method4());
 	}
 
 	public static void main(String[] args) {
